@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+    }
+</style>
+<body>
+    <title>Minggu 1</title>
+    <!-- jenis Heading -->
+   <h>Heading 1</h>
+   <h>heading 2</h>
+   <h>heading 3</h>
+   <h>heading 4</h>
+   <h>heading 5</h>
+   <h>heading 6</h>
+
+   <h1>heading 1</h1>
+   <h2>heading 2</h2>
+   <h3>heading 3</h3>
+   <h4>heading 4</h4>
+   <h5>heading 5</h5>
+   <h6>heading 6</h6>
+   
+   <!-- tag paragraf -->
+   <p>membuat teks paragraf</p>
+   <b>ini teks tebal</b><br>
+   <i>ini teks miring</i><br>
+   <u>ini teks underline</u><br>
+   <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+ Recusandae inventore ullam architecto incidunt, in, amet, alias commodi obcaecati itaque voluptas esse corporis a! 
+ Fuga dolor ex nisi, officiis sit quibusdam.<p>
+    <!-- list -->
+<ol>
+    <li>konten list1</li>
+    <li>konten list2</li>
+    <li>konten list3</li>
+    <li>konten list4</li>
+</ol>
+<!--ol>li{konten $}*5  -->
+
+<ol type="i">
+    <li>konten list1</li>
+    <li>konten list2</li>
+    <li>konten list3</li>
+    <li>konten list4</li>
+    <li>konten list5</li>
+</ol>
+<ul>
+    <li>unordered list1</li>
+    <li>unordered list2</li>
+    <li>unordered list3</li>
+    <li>unordered list4</li>
+    <li>unordered list5</li>
+</ul>
+<ul type="disc">
+    <li>unordered list1</li>
+    <li>unordered list2</li>
+    <li>unordered list3</li>
+    <li>unordered list4</li>
+    <li>unordered list5</li>
+</ul>
+<ul type="square">
+    <li>unordered list1</li>
+    <li>unordered list2</li>
+    <li>unordered list3</li>
+    <li>unordered list4</li>
+    <li>unordered list5</li>
+</ul>
+<!-- desciption list --> 
+<dl>
+    <dt>kontent 1</dt>
+    <dd>deskripsi kontent 1</dd>
+</dl>
+<ol>
+    <li><dt>kontent pertama</dt></li>
+    <dd>deskripsi kontent pertama</dd>
+    <li><dt>kontent kedua</dt></li>
+    <dd>deskrpsi kontent kedua</dd>
+</ol>
+<!-- hyperlink -->
+    <!-- external -->
+    <a href="https://www.google.com">google</a><br>
+    <a href="https://www.youtube.com">youtube</a><br>
+   
+    <!-- internal -->
+    <a href="halaman1.html">halaman pertama</a><br>
+    <a href="pages/halaman2.html">halaman kedua</a><br>
+    <a href="../pages/halaman2.html">halaman kedua beda folder</a><br>
+     
+    <!-- page anchor -->
+    <a href="#bagian1">bagian1</a><br>
+    <a href="#bagian2">bagian2</a><br>
+    <a href="#bagian3">bagian3</a><br>
+    <div id="bagian2">
+        <h1>BAGIAN 1</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Error, maxime harum officia eaque est in?
+             Eligendi, exercitationem blanditiis minima repudiandae obcaecati enim molestiae, eius a, recusandae 
+            provident odit accusantium voluptatem?</p><br><br><br>
+    </div>
+    <div  id="bagian2">
+        <h1>BAGIAN 2</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Labore laudantium quos ratione libero placeat, dolores repudiandae dicta excepturi, minima esse, 
+            in quo odio ut error rem enim dolore magni mollitia.</p><br><br><br>
+    </div>
+    <div id="bagian3">
+        <h1>BAGIAN3</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Ut quaerat laborum nihil,vero labore aspernatur sunt laudantium 
+             repellendus veniam consectetur sed suscipit fuga deleniti debitis dignissimos iste animi corporis corrupti!</p><br><br><br>
+    </div>
+
+    <!-- target atribut -->
+    <a href="../pages/halaman2.html">halaman 2 (self target / default)</a><br>
+    <a href="../pages/halaman2.html target= blank">halaman 2 (blank target)</a><br>
+   
+    <h1>Gambar</h1>
+   
+    <!-- Menambahkan Gambar -->
+    <img src="logoudinus.png" alt="logo">
+<h1>Tabel</h1>
+
+    <!-- Tabel -->
+    <table border="1" cellspaasing="0" cellpadding="3px" width="100">
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Dimas</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rizki</td>
+        </tr>
+    </table><br><br>
+    <h1>Form</h1>
+
+    <!-- form -->
+    <form action="#">
+        <label for="Username">Username :</label>
+        <input type="text" id="Username">
+    </form><br>
+    <form action="#">
+        <label for="pass">password :</label>
+        <input type="password" id="pass">
+    </form><br>
+    <form action="#">
+        <label for="gender">pilih jenis kelamin :</label>
+        <input type="radio" id="gender">
+        <label for="gender">laki-laki</label>
+        <input type="radio" id="gender">
+        <label for="gender">perempuan</label>
+    </form><br>
+    <form action="#">
+        <label>pilih sikon anda :</label>
+        <input type="checkbox" id="ngantuk">
+        <label for="ngantuk">ngantuk</label>
+        <input type="checkbox" id="semangat">
+        <label for="semangat">semangat</label>
+    </form><br>
+    <form action="#">
+        <label for="kesan">kesan & pesan</label>
+        <textarea name="kesan" id="" cols="30" rows="10"></textarea>
+
+    </form>
+   
+</body>
+</html>
